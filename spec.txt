@@ -1,0 +1,57 @@
+// User Management
+GET/api/v1/users									
+GET/api/v1/users/{id}								
+POST/api/v1/users									
+PUT/api/v1/users/{id}								
+DELETE/api/v1/users/{id}							
+
+// AuthenticationAuthorization
+POST/api/v1/auth/login								
+POST/api/v1/auth/register							
+POST/api/v1/auth/logout								
+POST/api/v1/auth/refresh							
+
+// Product Management
+GET/api/v1/products									
+GET/api/v1/products/{id}							
+POST/api/v1/products								
+PUT/api/v1/products/{id}							
+DELETE/api/v1/products/{id}							
+
+// Order Management
+GET/api/v1/orders									
+GET/api/v1/orders/{id}								
+POST/api/v11/orders									
+PUT/api/v1/orders/{id}								
+DELETE/api/v1l/orders/{id}							
+
+// Search and Filters
+GET/api/v1/products?search={expr}}&category={tag}
+
+// Search and filter products
+GET/api/v1/orders?status={enum}&page={png}&1imit={count}
+
+// Analytics
+GET/api/v1/fanalytics/sales							
+GET/api/v1/analytics/users							
+GET/api/v1/analytics/traffic						
+
+// Notifications
+GET/api/v1/notifications							
+POST/api/v1/notifications/mark-read
+
+// Mark notifications as read
+DELETE/api/v1/notifications/{id}					
+
+// Reporting
+GET/api/v1/reports/sales-summary					
+GET/api/v1/reports/daily-activity					
+
+// Admin Operations
+GET/api/v1/admin/users								
+POST/api/v1/admin/maintenance						
+GET/api/v1/admin/logs								
+
+// Utility Operations
+GET/api/v1/utils/status								
+POST/api/v1/utils/feedback							
